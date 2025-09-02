@@ -1,0 +1,35 @@
+# Dependências do Node
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Compilação do TypeScript
+# Ignora o diretório de saída, onde o código compilado fica.
+/dist
+/build
+*.js.map
+*.d.ts
+
+# Variáveis de Ambiente e Dados Sensíveis
+# Arquivos que contêm chaves de API, senhas ou outras informações sensíveis.
+.env
+.env.local
+.env.production
+.env.development
+
+# Arquivos de IDE e Sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Arquivos de Teste
+/coverage
+/test-report/
+
+# Outros Arquivos Temporários e de Cache
+.cache/
+.eslintcache
+/tmp/
