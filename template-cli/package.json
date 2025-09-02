@@ -1,0 +1,17 @@
+{
+  "name": "crie-node-ts-app",
+  "version": "1.0.0",
+  "description": "Uma CLI para criar projetos Node.js com TypeScript.",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "create-node-js-app": "bin/create-node-app-ts.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  }
+}
